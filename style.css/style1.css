@@ -1,0 +1,49 @@
+
+body{
+    background: url("imggeek/logogeekg.png") center center no-repeat, linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));
+    /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
+    /*background-image: url("imggeek/logogeekg.png"); fallback: initial;*/
+    background-size: auto; 
+    background-blend-mode: overlay;
+}
+#logobg{
+    width: center;
+    height: center;
+    text-align: center;
+    text-size-adjust: auto;
+}
+#iggeek{
+    width: center;
+    height: center;
+    text-align: center;
+    text-size-adjust: auto;
+}
+h1{
+    position: relative;
+    margin-bottom: 5px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+h2{
+    position: relative;
+    margin-bottom: 15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+}
+p{
+    position: relative;
+    margin-bottom: 15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: start;
+    text-size-adjust: auto;
+    color: rgb(0, 0, 0);
+}
