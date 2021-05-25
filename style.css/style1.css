@@ -25,6 +25,7 @@ h1{
     margin-left: 15px;
     text-align: center;
     text-shadow: 1px 1px rgb(255, 0, 0);
+    text-size-adjust: auto;
     color: rgb(0, 0, 0);
 }
 h2{
@@ -35,6 +36,7 @@ h2{
     font-size: 40px;
     text-align: center;
     text-shadow: 1px 1px rgb(255, 0, 0);
+    text-size-adjust: auto;
     color: rgb(0, 0, 0);
 }
 p{
@@ -44,6 +46,12 @@ p{
     margin-left: 15px;
     font-size: 30px;
     text-align: start;
+    text-shadow: 1px 1px rgb(0, 195, 255);
     text-size-adjust: auto;
     color: rgb(0, 0, 0);
+}
+strong{
+    color: black;
+    text-shadow: 1px 1px rgb(255, 0, 0);
+    text-size-adjust: auto;
 }
