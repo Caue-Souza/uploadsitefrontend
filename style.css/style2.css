@@ -1,6 +1,5 @@
-
 body{
-    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient( to right, rgb(0, 195, 255),rgb(75, 0, 250));
+    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to right, rgb(255, 0, 0),rgb(251, 255, 0));
     /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
     /*background-image: url("imggeek/logogeekg.png"); fallback: initial;*/
     background-size: auto; 
@@ -13,17 +12,12 @@ body{
     text-align: center;
     text-size-adjust: auto;
 }
-#iggeek{
-    width: center;
-    height: center;
-    text-align: center;
-    text-size-adjust: auto;
-}
 h1{
     position: relative;
     margin-bottom: 5px ;
     margin-right: 15px;
     margin-left: 15px;
+    font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px rgb(255, 0, 0);
     text-size-adjust: auto;
@@ -36,7 +30,7 @@ h2{
     margin-left: 15px;
     font-size: 40px;
     text-align: center;
-    text-shadow: 1px 1px rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 4 , 255);
     text-size-adjust: auto;
     color: rgb(0, 0, 0);
 }
@@ -47,41 +41,42 @@ p{
     margin-left: 15px;
     font-size: 30px;
     text-align: start;
-    text-shadow: 1px 1px rgb(0, 195, 255);
+    text-shadow: 1px 1px rgb(255, 0, 0);
     text-size-adjust: auto;
     color: rgb(0, 0, 0);
 }
 strong{
     color: black;
-    text-shadow: 1px 1px rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(0, 4, 255);
     text-size-adjust: auto;
 }
-/*#setaa{
+#eventogeek{
     position: relative;
     text-align: center;
-}*/
+    width: center;
+    height: center;
+}
 a {
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
   }
-a:hover {
+  
+  a:hover {
     background-color: #ddd;
     color: black;
-}
+  }
+  
+  .previous {
+    background-color: #00fff2;
+    color: rgb(255, 255, 255);
+  }
+  
   .next {
-    background-color: #000080;
+    background-color: #00fff2;
     color: white;
   }
+  
   .round {
-    border-radius: 100%;
+    border-radius: 50%;
   }
-#cdzgeek{
-    display: flex;
-    align-items: stretch;
-}
-#snydergeek{
-    display: flex;
-    align-items: stretch;
-    text-align: left;
-}
