@@ -1,0 +1,12 @@
+body{
+    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to right, rgb(0, 255, 64),rgb(0, 204, 255));
+    background-size: auto; 
+    background-blend-mode: overlay;
+    background-position: center;
+}
+#logobg{
+    width: center;
+    height: center;
+    text-align: center;
+    text-size-adjust: auto;
+}

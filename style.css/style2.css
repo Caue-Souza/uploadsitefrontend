@@ -1,7 +1,5 @@
 body{
     background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to right, rgb(255, 0, 0),rgb(251, 255, 0));
-    /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
-    /*background-image: url("imggeek/logogeekg.png"); fallback: initial;*/
     background-size: auto; 
     background-blend-mode: overlay;
     background-position: center;
@@ -68,13 +66,21 @@ a {
   }
   
   .previous {
-    background-color: #00fff2;
+    background-color: #5f0000;
     color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    left: 40%;
+    right: 40%;
   }
   
   .next {
-    background-color: #00fff2;
+    background-color: #5f0000;
     color: white;
+    position: relative;
+    text-align: center;
+    left: 40%;
+    right: 40%;
   }
   
   .round {

@@ -69,13 +69,14 @@ a:hover {
     background-color: #ddd;
     color: black;
 }
-  .next {
-    background-color: #000080;
-    color: white;
-  }
-  .round {
-    border-radius: 100%;
-  }
+.next {
+    background-color: #010953;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    left: 45%;
+    right: 45%;
+}
 #cdzgeek{
     display: flex;
     align-items: stretch;
