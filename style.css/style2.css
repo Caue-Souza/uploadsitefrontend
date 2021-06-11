@@ -86,3 +86,8 @@ a {
   .round {
     border-radius: 50%;
   }
+  header{
+    background-color: aqua;
+    position: relative;
+    text-align: center;
+}

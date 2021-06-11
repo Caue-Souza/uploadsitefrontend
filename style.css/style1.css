@@ -1,6 +1,6 @@
 
 body{
-    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient( to right, rgb(0, 195, 255),rgb(75, 0, 250));
+    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to top,rgb(0, 195, 255),rgb(75, 0, 250));
     /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
     /*background-image: url("imggeek/logogeekg.png"); fallback: initial;*/
     background-size: auto; 
@@ -56,11 +56,8 @@ strong{
     text-shadow: 1px 1px rgb(255, 0, 0);
     text-size-adjust: auto;
 }
-/*#setaa{
-    position: relative;
-    text-align: center;
-}*/
 a {
+    color: black;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
@@ -85,4 +82,9 @@ a:hover {
     display: flex;
     align-items: stretch;
     text-align: left;
+}
+header{
+    background-color: aqua;
+    position: relative;
+    text-align: center;
 }
