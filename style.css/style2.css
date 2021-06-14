@@ -55,13 +55,14 @@ strong{
     height: center;
 }
 a {
+    color: white;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
   }
   
   a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
     color: black;
   }
   
@@ -82,12 +83,18 @@ a {
     left: 40%;
     right: 40%;
   }
-  
-  .round {
-    border-radius: 50%;
-  }
   header{
-    background-color: aqua;
+    font-size: 20px;
+    height: 50px;
+    margin: -10px;
+    background-color: rgb(177, 0, 0);
     position: relative;
     text-align: center;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    background-color: #af7200;
+    word-spacing: normal;
+    margin: -10px;
 }

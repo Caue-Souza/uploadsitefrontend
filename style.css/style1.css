@@ -57,13 +57,13 @@ strong{
     text-size-adjust: auto;
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     display: inline-block;
     padding: 8px 16px;
   }
 a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 .next {
@@ -71,8 +71,7 @@ a:hover {
     color: rgb(255, 255, 255);
     position: relative;
     text-align: center;
-    left: 45%;
-    right: 45%;
+    left: 44%;
 }
 #cdzgeek{
     display: flex;
@@ -84,7 +83,16 @@ a:hover {
     text-align: left;
 }
 header{
-    background-color: aqua;
+    font-size: 20px;
+    height: 50px;
+    margin: -10px;
+    background-color: rgb(0, 59, 126);
     position: relative;
     text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(0, 59, 126);
+    word-spacing: normal;
+    margin: -10px;
 }

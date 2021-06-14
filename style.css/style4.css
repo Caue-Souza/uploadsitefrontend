@@ -11,9 +11,20 @@ body{
     text-size-adjust: auto;
 }
 header{
+    font-size: 20px;
+    height: 50px;
+    margin: -10px;
     background-color: rgb(69, 83, 83);
     position: relative;
     text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: rgb(59, 68, 68);
+    word-spacing: normal;
+    margin-bottom:-30px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 a {
     color: white;
@@ -24,4 +35,47 @@ a {
 a:hover {
     background-color: #ddd;
     color: black;
+}
+a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+  .previous {
+    background-color: #353535;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+  }
+  
+  .next {
+    background-color: #353535;
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+  }
+  h1{
+    color: rgb(122, 122, 122);
+    position: relative;
+    margin-bottom: 5px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-size-adjust: auto;
+}
+p{
+    color: rgb(122, 122, 122);
+    position: relative;
+    margin-bottom: 15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: start;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-size-adjust: auto;;
 }
