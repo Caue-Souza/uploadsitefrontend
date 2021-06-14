@@ -3,6 +3,9 @@ body{
     background-size: auto; 
     background-blend-mode: overlay;
     background-position: center;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 #logobg{
     width: center;
@@ -69,32 +72,35 @@ a {
   .previous {
     background-color: #5f0000;
     color: rgb(255, 255, 255);
-    position: relative;
+    margin-left: 15cm;
+    margin-right: 15cm;
     text-align: center;
-    left: 40%;
-    right: 40%;
+    align-items: center;
+    display: block;
   }
   
   .next {
     background-color: #5f0000;
     color: white;
-    position: relative;
+    margin-left: 15cm;
+    margin-right: 15cm;
     text-align: center;
-    left: 40%;
-    right: 40%;
+    align-items: center;
+    display: block;
+    
   }
   header{
+    padding: 25px;
     font-size: 20px;
-    height: 50px;
-    margin: -10px;
     background-color: rgb(177, 0, 0);
     position: relative;
     text-align: center;
 }
 footer{
-    font-size: 15px;
     text-align: center;
     background-color: #af7200;
     word-spacing: normal;
-    margin: -10px;
+    margin-bottom: -5px;
+    padding: 15px;
+    font-size: 12px;
 }
