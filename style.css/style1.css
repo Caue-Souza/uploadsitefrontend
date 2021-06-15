@@ -1,4 +1,21 @@
-
+@media only screen and (max-width: 100%) {
+    main{
+        max-width: 700px;
+        width: 100%;
+    }
+    header{
+        max-width: 700px;
+        width: 100%;
+    }
+    footer{
+        max-width: 700px;
+        width: 100%;
+    }
+    .next{
+        max-width: 700px;
+        width: 100%;
+    }
+}
 body{
     background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to top,rgb(0, 195, 255),rgb(75, 0, 250));
     /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
@@ -57,8 +74,9 @@ p{
 
 }
 .next{
-    margin-left: 15cm;
-    margin-right: 15cm;
+    min-width: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     align-items: center;
     display: block;
@@ -91,6 +109,7 @@ a:hover {
     text-align: left;
 }
 header{
+    min-width: 500px;
     padding: 25px;
     font-size: 20px;
     background-color: rgb(0, 59, 126);
