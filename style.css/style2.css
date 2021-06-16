@@ -9,7 +9,7 @@ body{
 }
 #logobg{
     width: center;
-    height: center;
+    height: fit-content;
     text-align: center;
     text-size-adjust: auto;
 }
@@ -104,12 +104,10 @@ footer{
     padding: 15px;
     font-size: 12px;
 }
-@media only screen and (min-width: 300px) and (max-width: 800px) {
+@media only screen and (max-width: 500px) {
     body{
         min-width: 100%;
-        min-width: 100%;
         max-width: 100vw;
-        max-height: 100vw;
     }
     h1{
         min-width: fit-content;
@@ -131,22 +129,20 @@ footer{
         display: none;
         visibility: hidden;
     }
-    .next{
-        text-align: center;
-        align-items: center;
-        min-width: max-content;
-    }
-    .previous{
-        padding-right: 17px;
-        padding-left: 18px;
-        text-align: center;
-        align-items: center;
-        min-width: max-content;
+    #logobg{
+        display: none;
+        visibility: hidden;
     }
     header{
         min-width: fit-content;
     }
     footer{
         min-width: fit-content;
+    }
+}
+@media only screen and (max-width: 710px) {
+    #eventogeek{
+        display: none;
+        visibility: hidden;
     }
 }
