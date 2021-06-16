@@ -74,8 +74,8 @@ p{
     background-color: #004741;
     color: rgb(255, 255, 255);
     min-width: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
     text-align: center;
     align-items: center;
     display: block;
@@ -85,8 +85,8 @@ p{
     background-color: #004741;
     color: white;
     min-width: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
     text-align: center;
     align-items: center;
     display: block;
@@ -130,7 +130,7 @@ p{
         min-width: max-content;
     }
     .previous{
-        padding-right: 18px;
+        padding-right: 17px;
         padding-left: 18px;
         text-align: center;
         align-items: center;
@@ -141,9 +141,5 @@ p{
     }
     footer{
         min-width: fit-content;
-    }
-    a:hover {
-        display: none;
-        visibility: hidden;
     }
 }

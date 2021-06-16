@@ -1,5 +1,5 @@
 body{
-background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to top,rgb(0, 195, 255),rgb(75, 0, 250));
+    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to top,rgb(0, 195, 255),rgb(75, 0, 250));
     background-size: auto; 
     background-blend-mode: overlay;
     background-position: center;
@@ -8,8 +8,8 @@ background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient
     display: block;
 }
 #logobg{
-    width: center;
-    height: center;
+    width: auto;
+    height: auto;
     text-align: center;
     text-size-adjust: auto;
 }
@@ -71,4 +71,41 @@ p{
 }
 strong{
     text-shadow: 1px 1px red;
+}
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    body{
+        min-width: 100%;
+        min-width: 100%;
+        max-width: 100vw;
+        max-height: 100vw;
+    }
+    h1{
+        min-width: fit-content;
+        text-align: center;
+    }
+    p{
+        min-width: fit-content;
+        text-align: center;
+    }
+    main{
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+    #logobg{
+        max-width: 400px;
+        max-height: 400px;
+        text-align: center;
+    }
+    .previous{
+        text-align: center;
+        align-items: center;
+        min-width: fit-content;
+    }
+    header{
+        text-align: center;
+        min-width: fit-content;
+    }
+    footer{
+        min-width: fit-content;
+    }
 }
