@@ -1,25 +1,6 @@
-@media only screen and (max-width: 100%) {
-    main{
-        max-width: 700px;
-        width: 100%;
-    }
-    header{
-        max-width: 700px;
-        width: 100%;
-    }
-    footer{
-        max-width: 700px;
-        width: 100%;
-    }
-    .next{
-        max-width: 700px;
-        width: 100%;
-    }
-}
 body{
-    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to top,rgb(0, 195, 255),rgb(75, 0, 250));
-    /*background-image: linear-gradient(to right, rgb(0, 195, 255),rgb(75, 0, 250));*/
-    /*background-image: url("imggeek/logogeekg.png"); fallback: initial;*/
+    background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to right, rgb(255, 0, 0),rgb(251, 255, 0));
+    min-width: 100vw;
     background-size: auto; 
     background-blend-mode: overlay;
     background-position: center;
@@ -28,8 +9,7 @@ body{
     display: block;
 }
 #logobg{
-    width: center;
-    height: center;
+    min-width: fit-content;
     text-align: center;
     text-size-adjust: auto;
 }
@@ -44,6 +24,40 @@ h1{
     margin-bottom: 5px ;
     margin-right: 15px;
     margin-left: 15px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(129, 209, 255);
+    text-size-adjust: auto;
+    color: rgb(0, 0, 0);
+}
+h2{
+    position: relative;
+    margin-bottom: 15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px rgb(255, 79, 79);
+    text-size-adjust: auto;
+    color: rgb(0, 0, 0);
+}
+p{
+    position: relative;
+    margin-bottom: 15px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+    text-align: start;
+    text-shadow: 1px 1px rgb(255, 79, 79);
+    text-size-adjust: auto;
+    color: rgb(0, 0, 0);
+}
+/* h1{
+    position: relative;
+    margin-bottom: 5px ;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 50px;
     text-align: center;
     text-shadow: 1px 1px rgb(255, 0, 0);
     text-size-adjust: auto;
@@ -61,31 +75,31 @@ h2{
     color: rgb(0, 0, 0);
 }
 p{
-    position: relative;
     margin-bottom: 15px ;
     margin-right: 15px;
     margin-left: 15px;
-    font-size: 30px;
+    font-size: 35px;
     text-align: start;
     text-shadow: 1px 1px rgb(0, 195, 255);
     text-size-adjust: auto;
     color: rgb(0, 0, 0);
 
 
-}
+}*/
 .next{
     min-width: 50px;
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+    font-size: 20px;
     align-items: center;
     display: block;
-    background-color: #010953;
+    background-color: #bb0000;
     color: rgb(255, 255, 255);
 }
 strong{
     color: black;
-    text-shadow: 1px 1px rgb(255, 0, 0);
+    text-shadow: 1px 1px rgb(129, 209, 255);
     text-size-adjust: auto;
 }
 a {
@@ -94,34 +108,90 @@ a {
     display: inline-block;
     padding: 8px 16px;
   }
+
 a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
+    min-height: auto;
+    min-width: auto;
 }
 
 #cdzgeek{
+    min-height: auto;
+    min-width: auto;
     display: flex;
     align-items: stretch;
+    text-align: end;
 }
 #snydergeek{
+    min-height: auto;
+    min-width: auto;
     display: flex;
     align-items: stretch;
     text-align: left;
 }
 header{
-    min-width: 500px;
     padding: 25px;
-    font-size: 20px;
-    background-color: rgb(0, 59, 126);
+    background-color: rgb(114, 0, 0);
     position: relative;
     text-align: center;
 }
 footer{
+    min-width: 730px;
     margin-bottom: -5px;
     padding: 15px;
     font-size: 12px;
     text-align: center;
-    background-color: rgb(0, 59, 126);
+    background-color: rgb(194, 158, 0);
     word-spacing: normal;
     
+}
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    body{
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+    h1{
+        min-width: fit-content;
+        text-align: center;
+    }
+    h2{
+        min-width: fit-content;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    main{
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+    .next{
+        text-align: center;
+        align-items: center;
+        min-width: fit-content;
+    }
+    header{
+        min-width: fit-content;
+    }
+    footer{
+        min-width: fit-content;
+    }
+    #iggeek{
+        display: none;
+        visibility: hidden;
+    }
+    #cdzgeek{
+        display: block;
+        text-align: center;
+        min-height: min-content;
+        min-width: min-content;
+
+    }
+    #snydergeek{
+        display: block;
+        text-align: center;
+        min-height: min-content;
+        min-width: min-content;
+    }
 }
