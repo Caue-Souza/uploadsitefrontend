@@ -35,10 +35,6 @@ a {
     padding: 8px 16px;
 }
 a:hover {
-    background-color: #ddd;
-    color: black;
-}
-a:hover {
     background-color: rgb(255, 255, 255);
     color: black;
   }
@@ -53,7 +49,7 @@ a:hover {
     display: block;
   }
   h1{
-    color: rgb(0, 6, 94);
+    color: rgb(0, 5, 75);
     position: relative;
     margin-bottom: 5px ;
     margin-right: 15px;
@@ -63,7 +59,7 @@ a:hover {
     text-size-adjust: auto;
 }
 p{
-    color: rgb(0, 4, 54);
+    color: rgb(0, 3, 46);
     position: relative;
     margin-bottom: 15px ;
     margin-right: 15px;
@@ -72,4 +68,7 @@ p{
     text-align: start;
     text-shadow: 1px 1px rgb(69, 156, 255);
     text-size-adjust: auto;;
+}
+strong{
+    text-shadow: 1px 1px red;
 }

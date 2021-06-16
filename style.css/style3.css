@@ -73,8 +73,9 @@ p{
 .previous {
     background-color: #004741;
     color: rgb(255, 255, 255);
-    margin-left: 15cm;
-    margin-right: 15cm;
+    min-width: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     align-items: center;
     display: block;
@@ -83,8 +84,9 @@ p{
   .next {
     background-color: #004741;
     color: white;
-    margin-left: 15cm;
-    margin-right: 15cm;
+    min-width: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
     text-align: center;
     align-items: center;
     display: block;
@@ -94,3 +96,54 @@ p{
       text-align: justify;
       font-size: 35px;
   }
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+    body{
+        min-width: 100%;
+        min-width: 100%;
+        max-width: 100vw;
+        max-height: 100vw;
+    }
+    h1{
+        min-width: fit-content;
+        text-align: center;
+    }
+    h2{
+        min-width: fit-content;
+        text-align: center;
+    }
+    p{
+        min-width: fit-content;
+        text-align: center;
+    }
+    main{
+        min-width: fit-content;
+        min-height: fit-content;
+    }
+    #logobg{
+        max-width: 400px;
+        max-height: 400px;
+        text-align: center;
+    }
+    .next{
+        text-align: center;
+        align-items: center;
+        min-width: max-content;
+    }
+    .previous{
+        padding-right: 18px;
+        padding-left: 18px;
+        text-align: center;
+        align-items: center;
+        min-width: max-content;
+    }
+    header{
+        min-width: fit-content;
+    }
+    footer{
+        min-width: fit-content;
+    }
+    a:hover {
+        display: none;
+        visibility: hidden;
+    }
+}

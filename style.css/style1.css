@@ -1,6 +1,5 @@
 body{
     background: url("imggeek/logogeekg.png") center center repeat-y, linear-gradient(to right, rgb(255, 0, 0),rgb(251, 255, 0));
-    min-width: 100vw;
     background-size: auto; 
     background-blend-mode: overlay;
     background-position: center;
@@ -14,8 +13,6 @@ body{
     text-size-adjust: auto;
 }
 #iggeek{
-    width: center;
-    height: center;
     text-align: center;
     text-size-adjust: auto;
 }
@@ -52,40 +49,6 @@ p{
     text-size-adjust: auto;
     color: rgb(0, 0, 0);
 }
-/* h1{
-    position: relative;
-    margin-bottom: 5px ;
-    margin-right: 15px;
-    margin-left: 15px;
-    font-size: 50px;
-    text-align: center;
-    text-shadow: 1px 1px rgb(255, 0, 0);
-    text-size-adjust: auto;
-    color: rgb(0, 0, 0);
-}
-h2{
-    position: relative;
-    margin-bottom: 15px ;
-    margin-right: 15px;
-    margin-left: 15px;
-    font-size: 40px;
-    text-align: center;
-    text-shadow: 1px 1px rgb(255, 0, 0);
-    text-size-adjust: auto;
-    color: rgb(0, 0, 0);
-}
-p{
-    margin-bottom: 15px ;
-    margin-right: 15px;
-    margin-left: 15px;
-    font-size: 35px;
-    text-align: start;
-    text-shadow: 1px 1px rgb(0, 195, 255);
-    text-size-adjust: auto;
-    color: rgb(0, 0, 0);
-
-
-}*/
 .next{
     min-width: 50px;
     margin-left: 30%;
@@ -137,7 +100,7 @@ header{
     text-align: center;
 }
 footer{
-    min-width: 730px;
+    min-width: 30px;
     margin-bottom: -5px;
     padding: 15px;
     font-size: 12px;
@@ -150,6 +113,7 @@ footer{
     body{
         min-width: fit-content;
         min-height: fit-content;
+        background-size: 100%;
     }
     h1{
         min-width: fit-content;
@@ -193,5 +157,9 @@ footer{
         text-align: center;
         min-height: min-content;
         min-width: min-content;
+    }
+    a:hover {
+        display: none;
+        visibility: hidden;
     }
 }
